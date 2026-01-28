@@ -51,6 +51,7 @@ def new_logic():
 def printMenu():
     """
     Imprime el menú de opciones en consola para el usuario
+    Cambios en main
     """
     print("Opciones:")
     print("1- Cargar Libros")
