@@ -48,7 +48,7 @@ def new_logic():
     return control
 
 
-def print_menu():
+def printMenu():
     """
     Imprime el menú de opciones en consola para el usuario
     """
