@@ -48,7 +48,7 @@ def new_logic():
     return control
 
 
-def printMenu():
+def print_menu():
     """
     Imprime el menú de opciones en consola para el usuario
     Cambios en main
@@ -97,8 +97,10 @@ def load_books_tags(app):
     :param app: Aplicación de la lógica
     :type app: logic
     """
-    # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    pass
+    # TODO: Mods de Est-1 en el Lab 2
+    booktags = logic.load_books_tags(app,
+                                "GoodReads/book_tags-small.csv")
+    return booktags
         
 
 
@@ -150,7 +152,8 @@ def main():
             print("Primer libro cargado:\n" + str(first) + "\n")
 
             # TODO: Mods de Est-2 en el Lab 2
-            last = None
+            last = last_book(app)
+            print("Último libro cargado:\n" + str(last) + "\n")
 
         elif int(inputs[0]) == 2:
             print("Cargando información de tags....")
