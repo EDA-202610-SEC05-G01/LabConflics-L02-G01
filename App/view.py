@@ -23,6 +23,7 @@
  * Dario Correal - Version inicial
  * Santiago Arteaga - Otras versiones
  * Andres Rodriguez - Última version
+ # Cambio para commit final de laboratorio. Nota: se tuvieron que realizar varios fixes en main, pues identificamos varios errores y vacios especialmente en el directorio de DataStructures que impedían el correcto funcionamiento del codigo.
  """
 
 import sys
